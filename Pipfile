@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+elifetools = {git = "https://github.com/elifesciences/elife-tools.git", ref = "26c59bfbbd95a793f03c9041c614635e180a551d"}
+elifearticle = {git = "https://github.com/elifesciences/elife-article.git", ref = "c25f2ad022ec8f6675c1cf95e12480aa7b3aae0e"}
+elifecrossref = {git = "https://github.com/elifesciences/elife-crossref-xml-generation.git", ref = "3cf16976fa57e94fd3af45e2162b251674c168d8"}
+configparser = "==3.5.0"
+Flask = "==1.0"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
