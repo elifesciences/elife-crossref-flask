@@ -73,7 +73,7 @@ pre.language-markup
     if crossref_xml_escaped:
         content += ('<br><pre class="language-markup line-numbers"><code class="language-markup">{crossref_xml}</code></pre>'.format(
             crossref_xml=crossref_xml_escaped))
-    footer = '<h2>TODO:</h2>TODO: create a git repo<br>TODO: handle errors<br>TODO: write some tests<br>TODO: How to override the default config)</body></html>'
+    footer = '<h2>TODO:</h2>TODO: handle errors<br>TODO: write some tests<br>TODO: How to override the default config)</body></html>'
     return_value =  ('{header}{content}{footer}'.format(
         header=header,
         content=content,
