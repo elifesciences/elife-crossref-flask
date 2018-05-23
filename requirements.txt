@@ -1,0 +1,5 @@
+Flask==1.0
+git+https://github.com/elifesciences/elife-tools.git@26c59bfbbd95a793f03c9041c614635e180a551d#egg=elifetools
+git+https://github.com/elifesciences/elife-article.git@c25f2ad022ec8f6675c1cf95e12480aa7b3aae0e#egg=elifearticle
+git+https://github.com/elifesciences/elife-crossref-xml-generation.git@3cf16976fa57e94fd3af45e2162b251674c168d8#egg=elifecrossref
+configparser==3.5.0
