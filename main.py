@@ -35,7 +35,7 @@ def upload_form():
     return form_content
 
 @app.route('/', methods=['GET', 'POST'])
-def hello_world():
+def app():
     # handle the uploaded file
     url_for('static', filename='prism.js')
     url_for('static', filename='prism.css')
