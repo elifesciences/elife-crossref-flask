@@ -10,6 +10,7 @@ elifecrossref = {git = "https://github.com/elifesciences/elife-crossref-xml-gene
 configparser = "==3.5.0"
 Flask = "==1.0"
 gunicorn = "*"
+Jinja2 = ">=2.10.1"
 
 [dev-packages]
 
